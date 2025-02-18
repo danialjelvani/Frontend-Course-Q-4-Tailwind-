@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+
+  <style>
+      body {
+       min-height: 100vh;
+       text-rendering: optimizeSpeed;
+       line-height: 1.5;color: #000000;
+      }
+  </style>
+
+</head>
+
+
+<body class="bg-gradient-to-t from-amber-200 via-purple-700 to-white">
+
+  <h1 class="text-3xl bg-yellow-500 text-midnight font-extralight tracking-wide
+  leading-relaxed rounded-br-4xl uppercase w-full max-w-screen-sm min-h-full p-5">
+    Hello world!<br>
+    This website is designed by tailwind CSS
+  </h1>
+  <h2 class="p-5 bg-amber-600 rounded-tr-4xl border-b-2 border-dotted border-red-700 max-w-screen-sm
+   ">
+    This is the second element in website
+  </h2>
+  <h3 class="p-5 container mx-auto text-center bg-amber-200 rounded-3xl">
+    This container is always at the center</h3>
+  <h3 class="p-5 bg-amber-100 relative top-3 mb-3">
+    This is set with Relative top-3
+  </h3><br>
+
+  <!-- https://www.tailwindcss-animated.com/ -->
+
+<p class="text-5xl text-white font-thin text-center animate-fade-right animate-once animate-duration-[2000ms] animate-delay-[2000ms]">
+  Animation built with Animated
+</p><br>
+
+  <ul class="flex flex-row flex-wrap text-center">
+    <li class="flex-1 bg-blue-200">flex 1</li>
+    <li class="flex-auto bg-blue-300">flex auto</li>
+    <li class="flex-2 bg-blue-400">flex 2</li>
+    <li class="flex-none bg-blue-500">flex none</li>
+    <li class="w-full bg-blue-600">flex w-full</li>
+    <li class="w-1/2 bg-blue-700">flex w-1/2</li>
+    <li class="w-1/2 bg-blue-800">flex w-1/2</li>
+  </ul>
+
+  <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-center gap-y-1 bg-amber-500 min-h-60">
+    <li class="sm:col-span-2 md:col-span-3 bg-amber-600">grid 1</li>
+    <li>grid 2</li>
+    <li>grid 3</li>
+    <li>grid 4</li>
+    <li>grid 5</li>
+    <li>grid 6</li>
+  </ul>
+
+  <ul class="grid grid-cols-[110px_auto_25%] text-center">
+    <li class="bg-amber-200 p-0.5">unequal grid 1</li>
+    <li class="bg-amber-300 p-0.5">unequal grid 2</li>
+    <li class="bg-amber-400 p-0.5">unequal grid 3</li>
+  </ul>
+
+  <div class="text-center">
+  <button class="rounded-xl
+  text-center container max-w-70 mt-5 text-pink-200
+  hover:bg-gradient-to-r from-pink-500 to-yellow-500 hover:mt-3 hover:-mb-1
+  hover:p-1.5 transition duration-300 ease-in-out
+  animate-pulse hover:animate-none active:animate-none
+  "><div class=" container rounded-lg p-2 hover:text-pink-200 hover:scale-102
+  transition duration-300 ease-in-out
+  active:bg-blue-900 shadow-md shadow-gray-700 bg-pink-400 hover:bg-pink-700
+  mx-auto">button hover transition</div></button><br><br>
+  </div>
+
+<form action="" class="bg-amber-100">
+  <label for="text"><br>enter text here:&nbsp;</label>
+  <input type="text" id="text" class="bg-amber-300 border rounded-sm mb-1"><br>
+</form>
+
+<p class="text-4xl text-center p-3 mb-12"><span class="icon-[arcticons--1gallery] relative top-9" style="width: 96px; height: 96px; color: white;">
+</span>&nbsp;icon built with Iconify</p>
+<!-- https://iconify.design/docs/usage/css/tailwind/tailwind4/ -->
+
+</body>
+</html>
